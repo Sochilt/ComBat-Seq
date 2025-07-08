@@ -9,4 +9,6 @@ Use this tool when you have RNA-seq count matrices from multiple batches or sequ
 | Uncorrected Data | After Combat-Seq |
 |------------------|------------------|
 | ![Uncorrected](images/pca_uncorrected.png) | ![Corrected](images/pca_corrected.png) |
+```
+
 
