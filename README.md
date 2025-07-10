@@ -11,6 +11,8 @@ markdown
 |------------------|------------------|
 | ![Uncorrected](pca_uncorrected.png) | ![Corrected](pca_corrected.png) |
 
+Ensure your files are formated correctly.  See files folder to an example and to use as a demo run.
+Note that you cannot have duplicate gene names in your "counts" file so be sure to "remove duplicates" under the "Data" ribbon when editing your file. 
 
 
 
