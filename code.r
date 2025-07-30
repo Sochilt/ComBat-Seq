@@ -3,8 +3,8 @@ library(sva)
 library(plotly)
 
 # Load batch 1 and batch 2 data
-batch1 <- read_csv("/research/labs/hematology/braggio-slager/m215200/RNAseq/Mich1RNA.csv")
-batch2 <- read_csv("/research/labs/hematology/braggio-slager/m215200/RNAseq/Mich2RNA.csv")
+batch1 <- read_csv("/research/labs/hematology/m2152xx/RNAseq/Mich1RNA.csv")
+batch2 <- read_csv("/research/labs/hematology/m2152xx/RNAseq/Mich2RNA.csv")
 
 # Merge data by gene names
 combined_data <- merge(batch1, batch2, by = "Gene", all = TRUE)
